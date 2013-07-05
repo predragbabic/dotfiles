@@ -1,0 +1,7 @@
+[user]
+	name = Predrag Babić
+	email = pedja.com@gmail.com
+[color]
+	ui = auto
+[core]
+	pager = cat
