@@ -1,8 +1,11 @@
 # dotfiles
 
-Installation:
+####Installation:
+
+Clone repository:
 
 	git clone https://github.com/xiver/dotfiles.git
+
 	
 Create symlinks:
 
@@ -12,3 +15,8 @@ Create symlinks:
 	ln -s ~/dotfiles/vim/ ~/.vim/
 	ln -s ~/dotfiles/vimrc ~/.vimrc
 	ln -s ~/dotfiles/zshrc ~/.zshrc
+
+Add submodules:
+
+	git submodule init
+	git submodule update
