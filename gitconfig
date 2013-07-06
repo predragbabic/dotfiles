@@ -5,3 +5,5 @@
 	ui = auto
 [core]
 	pager = cat
+[credential]
+	helper = osxkeychain
