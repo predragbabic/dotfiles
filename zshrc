@@ -48,6 +48,7 @@ source $ZSH/oh-my-zsh.sh
 
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
+eval "$(rbenv init -)" # Managing Ruby
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 alias zshconfig="subl ~/.zshrc"
