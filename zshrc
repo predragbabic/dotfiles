@@ -55,4 +55,11 @@ alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias sqlon="mysql.server start"
 alias sqloff="mysql.server stop"
+alias sqlre="mysql.server restart"
+alias apacheon="sudo apachectl start"
+alias apacheoff="sudo apachectl stop"
+alias apachere="sudo apachectl restart"
 alias desk="cd ~/Desktop"
+
+# for syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
