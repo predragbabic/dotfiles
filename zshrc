@@ -47,7 +47,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 homebrew=/usr/local/bin:/usr/local/sbin
-export PATH=$homebrew:$PATH
+lessc=/usr/local/share/npm/bin/
+# export PATH=$homebrew:$PATH before lessc
+export PATH=$homebrew:$PATH:$lessc
 eval "$(rbenv init -)" # Managing Ruby
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
