@@ -46,10 +46,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# homebrew path
 homebrew=/usr/local/bin:/usr/local/sbin
-lessc=/usr/local/share/npm/bin/
-# export PATH=$homebrew:$PATH before lessc
-export PATH=$homebrew:$PATH:$lessc
+# for everything npm
+npm=/usr/local/share/npm/bin/
+export PATH=$homebrew:$PATH:$npm
 eval "$(rbenv init -)" # Managing Ruby
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
