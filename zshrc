@@ -64,5 +64,10 @@ alias apacheoff="sudo apachectl stop"
 alias apachere="sudo apachectl restart"
 alias desk="cd ~/Desktop"
 
+#functions
+function npmls() {
+  npm ls --depth=0 "$@" 2>/dev/null
+}
+
 # for syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
