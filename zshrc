@@ -63,6 +63,7 @@ alias apacheon="sudo apachectl start"
 alias apacheoff="sudo apachectl stop"
 alias apachere="sudo apachectl restart"
 alias desk="cd ~/Desktop"
+alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
 
 #functions
 function npmls() {
