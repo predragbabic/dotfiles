@@ -49,9 +49,11 @@ source $ZSH/oh-my-zsh.sh
 # homebrew path
 homebrew=/usr/local/bin:/usr/local/sbin
 # for everything npm
-npm=/usr/local/share/npm/bin/
+npm=/usr/local/share/npm/bin
 export PATH=$homebrew:$PATH:$npm
 eval "$(rbenv init -)" # Managing Ruby
+# for phpsh
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 alias zshconfig="subl ~/.zshrc"
